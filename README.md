@@ -37,7 +37,7 @@ The requirement at large is 100 pounds per square inch. When we look at our Tota
 
 When we look at each lot individually we can see that both lot 1 and 2 are within the requirements, but lot 3 comes out to be 170.28 which is over the requirement by aproximentaly 70 pounds.
 
-**DELIVERABLE 3: T-TESTS ON SUSPENSION COILS
+**DELIVERABLE 3: T-TESTS ON SUSPENSION COILS**
 
 SUSPENSION COIL PSI T-TEST RESULTS
 
@@ -47,5 +47,31 @@ INDIVIDUAL LOTS T-TEST RESULTS
 
 <img width="563" alt="Screen Shot 2022-01-16 at 5 04 50 PM" src="https://user-images.githubusercontent.com/91299616/149685960-0ab26605-4932-4d0f-80ba-3183a6e78636.png">
 
+LOT 1: Has a P-VALUE of 1, which we can say that it has a true sample mean of 1500.
 
+LOT 2: Has a P-VALUE of .6072 and the sample mean of 1500.2. We can not reject the null hypothesis.
+
+LOT 3: Has a P-VALUE of .04168 and the sample mean of 1496.14. We can say that the population mean and the sample mean are NOT statistically different in this lot.
+
+**DELIVERABLE 4: STUDY DESIGN: MECHACAR VS COMPETITION**
+
+MechaCar vs Competiton cars. We will need to collect data from different models from MechaCar to compare them to competitor cars with similar models. Below are the metrics we can use or look for for this dataset.
+
+METRICS
+- Current listing price : Dependent Variable
+- Safety Rating : Independent Variable
+- Cars Package (Sport/Limited Edition/ETC) : Independent Variable
+- Engine Type (Hybrid, Gasoline, Desiol, Electric) : Independent Variable 
+- MPG : Independent Variable
+- Manuel or Automatic : Independent Variable
+
+NULL / ALTERNATIVE HYPOTHESIS
+
+NULL : This price of MechaCar is correct based on the performance of the metrics for the current vehicle.
+
+ALTERNATIVE: The price of MechaCar is NOT correct based on the performance of the metrics for the current vehicle.
+
+STATISTICAL TEST
+
+To get the proper answer/testing for our hypothesis we would most likely need to use a multipe linear regression test to determine the factors. This test will be able to give us the highest correlation. We will be able to see the current listing price which is our dependent variable and how accurate it truly is. 
 
